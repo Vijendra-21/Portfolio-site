@@ -1,0 +1,91 @@
+/* ------------------++++++++++++++++ Skills-Page ++++++++++++++++++++++++--------------- */
+ .programming-skills{
+    background: url("image/wave.svg") no-repeat center center/cover;
+ }
+ .web-skills{
+    background: url("image/wave (1).svg") no-repeat center center/cover;
+ }
+ .basic-skills{
+    background: url("image/wave (2).svg") no-repeat center center/cover;
+ }
+
+.skills{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+ }
+ .skills h2{
+    letter-spacing: 10px;
+ }
+.skill img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+   
+}
+.skill img:hover{
+   transform:scale(1.1);
+}
+.skill{
+    display: flex;
+    justify-content: center;
+}
+
+.skill:hover,.skill-area:hover{
+    cursor: pointer;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ------------------++++++++++++++++ About-Page ++++++++++++++++++++++++--------------- */
+
+
+
+
+
+
+
+/* ------------------++++++++++++++++ Contact-Page ++++++++++++++++++++++++--------------- */
+
+
+.contact{
+    background: rgb(240, 238, 235);
+    padding: 1rem;
+    border-radius: 15px;
+    word-spacing: 7px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.contact-page h2 > span{
+    display: block;
+    letter-spacing: 18px;
+}
+
+.box{
+    border:dashed;
+    padding:0 !important;
+   }
+
+.box a{
+    color:var(--primary-color);
+}
+.box a:hover{ 
+    color:var(--primary-color2);
+}
+
+.call i{
+    transition: transform .5s ease;
+}
+.call i:hover{
+    transform: rotateX(180deg); 
+}
+
+.email i:hover{
+    transform:scale(1.2);
+}
+

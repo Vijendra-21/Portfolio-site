@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#9d4edd">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Site</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/favicon.jpg" type="image/x-icon">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!----------===================Nav bar section===================Start--------------->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">portfolio</a>
+            <div class="collapse navbar-collapse " id="navbarToggler">
+                <ul class="navbar-nav me-auto mx-3 mb-2 mb-lg-0 ">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link px-3 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link px-3" href="skills.html">skills</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link px-3 " href="about.html">about</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link px-3" href="contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------===================Nav bar section===================End--------------->
+
+    <!----------===================  Main   section  ===================Start--------------->
+    <main>
+        <section class="site-banner">
+            <div class="container site-title">
+                <div class="row">
+                    <div
+                        class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-center flex-column my-5">
+                        <ul class="text-uppercase">
+                            <li>
+                                <h3>Hey </h3>
+                            </li>
+                            <li>
+                                <h1>I am Vijendra</h1>
+                            </li>
+                            <li>
+                                <h4>Web Developer</h4>
+                            </li>
+                            <li class="d-flex flex-row flex-wrap">
+
+                                <a href ='mailto:vijendrakumawat8710@gmail.com?body="Hello Vijendra !"&subject="Job Alert"' target="_blank">
+                                <button type="button" class=" btn primary-btn text-uppercase">hire me</button>
+                                </a>
+                                <a href="https://drive.google.com/file/d/12EAPU-aBZmBkfPMjcGJusQY99NKHG52L/view?usp=sharing"
+                                    target="_blank">
+                                    <button type="button" class="btn secondary-btn text-uppercase">get Resume</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-center">
+                        <img src="image/banner-image.png" alt="banner-image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!----------===================  Main   section  ===================End--------------->
+
+    <!----------===================  About  section  ===================Start--------------->
+
+    <section class="about-area my-4 py-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6 about ">
+                    <img src="image/about-us.png" alt="About us" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                    <h2 class="text-uppercase pt-5">
+                        <span>Let me</span>
+                        <span>introduce</span>
+                        <span>myself</span>
+                    </h2>
+                    <div class="paragraph px-2 py-4 w-85">
+                        <p class="para">
+                            Full Stack Web Developer, WordPress Developer and UI/UX Designer.
+                        </p>
+                        <p class="para">
+                            I am a Full Stack Web Developer, familar to Frontend technologies HTML5, CSS3, Bootstrap5,
+                            JavaScript and Backend have PHP and Node.js, with database MySQL and MoogoDb.
+                        </p>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn primary-btn text-uppercase" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Know More About Us">Resume <i class="fa fa-download">
+                        </i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Download Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                    <img src="image/Resume.jpeg" alt="Resume" height="400rem" width="300rem">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <a href="RESUME.pdf" download="Resume">
+                        <button type="button" class="btn btn-primary">Download</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------===================  About  section  ===================End-------------->
+
+    <!--  ====================== Start Services Area =============================  -->
+
+    <section class="services-area py-3 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center services-title px-5">
+                    <h1 class="text-uppercase py-3">Services Offers</h1>
+                    <p class="para">
+                        I am a Full Stack Web Developer and providing the following services, you get Awesome experience
+                        with Projects.
+                    </p>
+                </div>
+            </div>
+            <div class="container services-list">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 col-xxl-3 d-flex justify-content-center">
+                        <div class="services">
+                            <div class="sevices-img text-center py-4">
+                                <img src="image/s1.png" alt="Services-1">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase">Wp developer</h5>
+                                <p class="card-text text-secondary">
+                                    WordPress is best known as a tool for helping nondevelopers quickly set up a
+                                    personal website or blog. But for those who need a bit more customizability and
+                                    performance in their websites, a WordPress developer can help.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 col-xxl-3 d-flex justify-content-center">
+                        <div class="services">
+                            <div class="sevices-img text-center py-4">
+                                <img src="image/s2.png" alt="Services-2">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase">ux/ui desing</h5>
+                                <p class="card-text text-secondary">
+                                    Currently i don't have much Knowledge UI/UX Designer.I am learning these
+                                    skills and provide these services as soon as i complete it.Thanks for yor Support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 col-xxl-3 d-flex justify-content-center">
+                        <div class="services">
+                            <div class="sevices-img text-center py-4">
+                                <img src="image/s3.png" alt="Services-3">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase">Frontend Developer</h5>
+                                <p class="card-text text-secondary">
+                                    Web design encompasses skills cover Frontend technologies, am familiar to Html ,Css,
+                                    Bootstrap, JavaScript.I can create fully responsive Web design for Websites.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12  col-xxl-3 d-flex justify-content-center">
+                        <div class="services">
+                            <div class="sevices-img text-center py-4">
+                                <img src="image/s4.png" alt="Services-4">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase">Backend Developer</h5>
+                                <p class="card-text text-secondary">
+                                    Backend is the part of site which helps to connect with database and give
+                                    funcationality to the site.I have bit Knowledge of Backend technologies like PHP and
+                                    Node.js .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  ====================== End Services Area =============================  -->
+
+    <!--  =============++++++======== Project Area ===========__++++++======== Start -->
+
+    <section class="project my-3 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center project-title px-5">
+                    <h1 class="text-uppercase py-3">Projects</h1>
+                    <p class="para pb-2">
+                        Projects done by me are listed here.
+                    </p>
+                </div>
+            </div>
+            <!-- Control buttons -->
+            <div id="myBtnContainer">
+                <button class="btn-project active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn-project" onclick="filterSelection('javascript')"> Javascript</button>
+                <button class="btn-project" onclick="filterSelection('bootstrap')"> Bootstrap</button>
+                <button class="btn-project" onclick="filterSelection('php')"> PHP</button>
+                <button class="btn-project" onclick="filterSelection('wordpress')"> WordPress</button>
+            </div>
+
+            <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="container-project gx-5  row">
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 javascript">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/notes-app.png" alt="project image" />
+                            <figcaption>
+                                <h2>Notes Application</h2>
+                                <p class="project-details">Notes Taking Application made with Pure HTML5, CSS3, JavaScript.</p>
+                                <a href="https://vijendra-21.github.io/Notes-Taking_Application/" target="_blank">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 javascript">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/analog-clock.png" alt="project image" />
+                            <figcaption>
+                                <h2>Analog Clock</h2>
+                                <p>Analog Clock with Digital Clock inside it.</p>
+                                <a href="https://vijendra-21.github.io/Analog_clock/" target="_blank">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 bootstrap">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/portfolio.png" alt="project image" />
+                            <figcaption>
+                                <h2>portfolio Site</h2>
+                                <p>Fully Responsive Portfolio Website, Where any anone can see deatils about You.</p>
+                                <a href="https://vijendra-21.github.io/Portfolio-site/" target="_blank">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 bootstrap">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/fantic.png" alt="project image" />
+                            <figcaption>
+                                <h2>Fantic Esports</h2>
+                                <p>Fully Responsive Design of BGMI online game Tournaments Site.<br>
+                                </p>
+                                <a href="https://vijendra-21.github.io/Fantic-Esports/" target="_blank">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 php">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/5.jpg" alt="img09" />
+                            <figcaption>
+                                <h2>comming soon</h2>
+                                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 php wordpress">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/6.jpg" alt="img09" />
+                            <figcaption>
+                                <h2>soon...</h2>
+                                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  =============++++++======== Project Area ===========__++++++======== End -->
+
+    <!--  ====================== Footer Section =============================  -->
+
+    <footer class="footer-area mt-5">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="image/vijendra.jpg" alt="logo"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">contact me</h5>
+                    <a href="https://github.com/Vijendra-21" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/web_developer_vk" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="whatsapp://send?text=Hello !&phone=+919079391949" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <!-- https://www.facebook.com/vijendrakumar.kumawat.1998/ -->
+                    <a href="http://www.linkedin.com/in/vijendra21" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="copyrights text-center">
+                    <h6> Copyright ©2021 All rights reserved | Vijendra </h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <!--Custom Javascript file  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
