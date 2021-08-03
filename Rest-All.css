@@ -42,11 +42,25 @@ figcaption{
 
 /* ------------------++++++++++++++++ About-Page ++++++++++++++++++++++++--------------- */
 
+.about img{
+    height: 90vh;
+    width:100vw;
+    margin-left: -1%;
+}
+.about-me{
+    background: url("image/blob.svg") no-repeat center;
+    height:30rem;
+}
+.about-me h3,h4{
+    letter-spacing: 10px;
+}
 
-
-
-
-
+@media (max-width:768px) {
+    .about img{
+        height: 65vh;
+        margin-left: -2.5%;
+    }
+}
 
 /* ------------------++++++++++++++++ Contact-Page ++++++++++++++++++++++++--------------- */
 
