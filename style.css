@@ -118,7 +118,7 @@ button{
 .secondary-btn{
     background: whitesmoke;
     background-clip: padding-box;
-    transition: background.6s ease;
+    transition: background .6s ease;
 }
 .secondary-btn:hover{
     background: var(--graddient-color);
@@ -131,7 +131,7 @@ button{
 
 .about-area h2 > span{
     display: block;
-    letter-spacing: 21px;
+    letter-spacing: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
