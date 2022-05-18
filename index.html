@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#9d4edd">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Site</title>
+    <title>Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -242,12 +242,36 @@
                 <button class="btn-project active" onclick="filterSelection('all')"> Show all</button>
                 <button class="btn-project" onclick="filterSelection('javascript')"> Javascript</button>
                 <button class="btn-project" onclick="filterSelection('bootstrap')"> Bootstrap</button>
-                <button class="btn-project" onclick="filterSelection('php')"> PHP</button>
-                <button class="btn-project" onclick="filterSelection('wordpress')"> WordPress</button>
+                <!-- <button class="btn-project" onclick="filterSelection('php')"> PHP</button> -->
+                <button class="btn-project" onclick="filterSelection('React')"> React</button>
             </div>
 
             <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
             <div class="container-project gx-5  row">
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 React">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/Hifi-news.png" alt="Tutionpad" />
+                            <figcaption>
+                                <h2>Hifi News</h2>
+                                <p>We get Top Headlines according to our preference. </p>
+                                <a href="https://tutionpad.netlify.app/">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 React">
+                    <div class="grid">
+                        <figure class="effect-oscar">
+                            <img src="image/Tutionpad.png" alt="Tutionpad" />
+                            <figcaption>
+                                <h2>Tutionpad Site</h2>
+                                <p>Tutionpad is a Online Platform for Tution</p>
+                                <a href="https://tutionpad.netlify.app/">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
                 <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 javascript">
                     <div class="grid">
                         <figure class="effect-oscar">
@@ -298,31 +322,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                </div>
-                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 php">
-                    <div class="grid">
-                        <figure class="effect-oscar">
-                            <img src="image/5.jpg" alt="img09" />
-                            <figcaption>
-                                <h2>comming soon</h2>
-                                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="filterDiv col-lg-4 col-md-6 col-12 col-xxl-4 php wordpress">
-                    <div class="grid">
-                        <figure class="effect-oscar">
-                            <img src="image/6.jpg" alt="img09" />
-                            <figcaption>
-                                <h2>soon...</h2>
-                                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
+                </div>                
             </div>
         </div>
     </section>
