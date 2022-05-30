@@ -61,6 +61,22 @@ figcaption{
         margin-left: -2.5%;
     }
 }
+.certification-section{
+    background: url("image/svg\ \(2\).png") no-repeat center center/cover;
+ }
+
+.certification-section{
+    cursor: pointer;
+}
+.certificate img
+{
+height: 15rem;
+width: 20rem;
+}
+.certificate img:hover
+{
+    transform: scale(1.05);
+}
 
 /* ------------------++++++++++++++++ Contact-Page ++++++++++++++++++++++++--------------- */
 
