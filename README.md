@@ -14,3 +14,5 @@ I created fluid layouts throughout the page with a mixture of Grid and Flexbox. 
 
 JavaScript
 I created functions to animate the Project section projects, depending on the button selected on the page.
+
+Visit the site https://vijendra.tech
