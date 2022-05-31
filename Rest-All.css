@@ -42,10 +42,12 @@ figcaption{
 
 /* ------------------++++++++++++++++ About-Page ++++++++++++++++++++++++--------------- */
 
+.about{
+    padding: 0;
+}
 .about img{
     height: 90vh;
     width:100vw;
-    margin-left: -1%;
 }
 .about-me{
     background: url("image/blob.svg") no-repeat center;
@@ -58,7 +60,6 @@ figcaption{
 @media (max-width:768px) {
     .about img{
         height: 65vh;
-        margin-left: -2.5%;
     }
 }
 .certification-section{
