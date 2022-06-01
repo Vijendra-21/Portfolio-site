@@ -16,7 +16,7 @@
     Open [http://localhost:5501](http://localhost:5501) to view it in the browser. 
     
 
-<img src="image/portfolio.jpg" width="50%" height="50%">
+<img src="image/portfolio.png" width="50%" height="50%">
 
 My Portfolio Site
 
