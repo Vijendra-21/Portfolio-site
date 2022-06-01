@@ -1,6 +1,24 @@
-# Portfolio
+# Portfolio Site
+
+## [Live](https://vijendra.tech)
+
+#### Technology stack
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+### Getting start
+- #### Clone Repository
+- #### Start project
+    open index.html file 'open with live server'.
+    Runs the app in the development mode.<br />
+    Open [http://localhost:5501](http://localhost:5501) to view it in the browser. 
+    
+
+<img src="image/portfolio.jpg" width="50%" height="50%">
+
 My Portfolio Site
-<img src="image/portfolio.jpg">
 
 I have created a portfolio to showcase my skills and projects. To achieve this, I implemented the following -
 
@@ -16,4 +34,7 @@ I created fluid layouts throughout the page with a mixture of Grid and Flexbox. 
 JavaScript
 I created functions to animate the Project section projects, depending on the button selected on the page.
 
-Visit the site https://vijendra.tech
+
+
+
+
