@@ -1,5 +1,6 @@
 # Portfolio
 My Portfolio Site
+<img src="image/portfolio.jpg">
 
 I have created a portfolio to showcase my skills and projects. To achieve this, I implemented the following -
 
