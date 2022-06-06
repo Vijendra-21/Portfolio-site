@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vijendra.tech/</loc>
+  <lastmod>2022-06-01T08:00:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vijendra.tech/about.html</loc>
+  <lastmod>2022-06-01T08:00:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vijendra.tech/skills.html</loc>
+  <lastmod>2022-06-01T08:00:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vijendra.tech/contact.html</loc>
+  <lastmod>2022-06-01T08:00:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vijendra.tech/index.html</loc>
+  <lastmod>2022-06-01T08:00:25+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+
+</urlset>
